@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(241,245,248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.s_text{
+    font-size: 40px;
+    font-weight:900;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    
+}
+.s_bar{
+    width: 75px;
+    height: 3px;
+    background-color: rgb(115,186,237);
+    margin: 0 auto;
+}
+.s_review{
+    margin-top: 45px;
+    width: 700px;
+    height: 450px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.s_r_pic{
+    width: 155px;
+    height: 155px;
+    background-color: rgb(115,186,237);
+    border-radius: 50%;
+    margin-bottom: 15px;
+    position: relative;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 8px -2px  0 0 rgb(80, 168, 231);
+}
+.pic_t{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    top: 15px;
+    left: 6px;
+    text-align: center;
+}
+
+.pic2{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.s_r_text1{
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 900;
+    margin-bottom: 7px;
+}
+.s_r_text2{
+    color:  rgb(80, 168, 231);
+}
+.s_r_text3{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 45px;
+    text-align: center;
+    line-height: 25px;
+}
+.b{
+    display: inline-block;
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0 10px;
+    color: rgb(80,168,231);
+    padding: 8px;
+}
+
+.b:hover{
+    color: rgb(60, 141, 199);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.s_r_ranbutton{
+    padding: 5px 12px;
+    background-color:rgb(237, 248, 255);
+    color: rgb(80, 182, 255);
+    border: 3px solid rgb(115, 197, 255);
+    border-radius: 10px; 
+}
+
+.s_r_ranbutton:hover{
+    background-color:rgb(201, 234, 255);
+    color: rgb(46, 168, 255);
+    border: 3px solid rgb(77, 181, 255);
+    transition: 0.3s;
+    cursor: pointer;
+}
